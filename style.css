@@ -9,8 +9,10 @@ body {
 header {
     padding: 25px;
     text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid #FF6B00;
     background-color: #1E1E1E;
-    color: rgb(243, 235, 235);
+    color: #FF6B00;
 }
 
 .teste1 {
@@ -60,4 +62,17 @@ main {
 
 .card h3 {
     color: #FF6B00;/
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
